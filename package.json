@@ -1,0 +1,16 @@
+{
+  "name": "online-coding-james",
+  "version": "1.0.0",
+  "description": "",
+  "main": "online-coding.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "coverage": "npx jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
