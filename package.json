@@ -2,7 +2,7 @@
   "name": "online-coding-james",
   "version": "1.0.0",
   "description": "",
-  "main": "online-coding.js",
+  "main": "main.js",
   "scripts": {
     "test": "jest --watchAll",
     "coverage": "npx jest --coverage"
