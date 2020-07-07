@@ -29,9 +29,6 @@ function sortExtensionsByName(extensions) {
   return extensions;
 }
 
-// const _sortExtensionsByName = sortExtensionsByName(extensions);
-// console.log(`_sortExtensionsByName`, _sortExtensionsByName);
-
 /**
   Question 2: sort extensions by extType follow these orders ASC
   DigitalUser < VitrualUser < FaxUser < AO < Dept.
@@ -49,8 +46,6 @@ function sortExtensionsByExtType(extensions, isAsc = true) {
   });
   return extensions;
 }
-// const _sortExtensionsByExtType = sortExtensionsByExtType(extensions);
-// console.log(`_sortExtensionsByExtType`, _sortExtensionsByExtType);
 
 /**
   saleItems is an Array has each item has such format:
@@ -79,9 +74,6 @@ function getSumByQuarter(saleItems) {
   // 获取每个月的销售量总值
   return quarterData.getSumByQuarter();
 }
-// const sumArr = getSumByQuarter(saleItems);
-// console.log(`sumArr`, sumArr);
-
 
 /**
   Question 4: write a function to calculate and return a list of average sales for each quarter, expected result like:
@@ -100,8 +92,6 @@ function getAverageByQuarter(saleItems, digits = 2) {
   // 获取每个季度每个月的平均销售量
   return quarterData.getAverageByQuarter();
 }
-// const averageArr = getAverageByQuarter(saleItems);
-// console.log(`averageArr`, averageArr);
 
 /**
   Question 5: please create a tool to generate Sequence
@@ -146,8 +136,6 @@ function getUnUsedKeys(allKeys = 9, usedKeys = []) {
     console.error('ERROR: allKeys should be an array or number');
   }
 }
-// const unUsedKeys = getUnUsedKeys(9, [2, 3, 4]);
-// console.log(`unUsedKeys`, unUsedKeys); // [ 0, 1, 5, 6, 7, 8, 9 ]
 
 module.exports = {
   sortExtensionsByName,
